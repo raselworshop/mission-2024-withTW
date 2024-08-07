@@ -2,7 +2,6 @@
 module.exports = {
   content: ['*'],
   theme: {
-    
     width:{
       '1140':'71rem'
     },
