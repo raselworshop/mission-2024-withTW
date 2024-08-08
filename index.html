@@ -4,7 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mission-2024-with Tailwind</title>
-       <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <!-- navbar section start -->
@@ -28,7 +40,7 @@
         </div>
         <!--banner right side contents -->
         <div class="max-w-md flex justify-start items-start">
-            
+
             <img class="min-w-full" src="./images/person/person-2.png" >
         </div>
     </section>
