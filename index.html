@@ -4,7 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mission-2024-with Tailwind</title>
-    <link rel="stylesheet" href="css/main.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script> 
+       <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
     <!-- navbar section start -->
@@ -52,6 +65,19 @@
                 <h2 class="font-sans font-bold text-4xl">Goals</h2>
                 <p>Amet minim mollit non deserunt <br> ullamco est sit aliqua dolor do amet <br> sint. Velit officia consequat duis enim <br> velit mollit.</p>
             </div>
+        </div>
+    </section>
+    <!-- develop without limits section start -->
+    <section class="w-1140 flex justify-between items-center gap-5 my-12 mx-auto">
+        <div class="max-w-xl relative">
+            <img class="max-w-64 absolute top-24 right-2/3" src="./images/shapes/shape-1.png" alt="">
+            <img class="max-w-lg relative top-0 right-0 left-0 bottom-0 z-0" src="./images/pictures/coding.png" alt="">
+        </div>
+        <div class="max-w-xl">
+            <h1 class="font-sans font-bold mb-7 text-6xl">Develop <br>
+                Without Limits</h1>
+            <p class="mb-5 font-sans font-normal text-slate-500">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli <br> deterruisset. No duo populo animal noluisse, enim deterruisset eos et. An <br> mundi noster pri, ea eos quas expetendis scripserit, affert gubergren <br> dissentias et cum.</p>
+            <button class="min-w-40 text-yellow-50 font-sans bg-red-400 px-4 py-4 rounded-lg hover:cursor-pointer font-semibold mb-7 hover:font-bold hover:min-w-48 hover:italic hover:font-serif">Read the  Documentation</button>
         </div>
     </section>
 </body>
